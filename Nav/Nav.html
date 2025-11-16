@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navigation Bar</title>
+    <link rel="stylesheet" href="Nav.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav>
+
+        <ul class="SideBar">
+
+            <li onclick=hideSideBar()><a href="#"><i class='bx bx-x-circle'></i></a></li>
+
+            <li><a href="#">Blog</a></li>
+
+            <li><a href="#">Products</a></li>
+
+            <li><a href="#">About</a></li>
+
+            <li><a href="#">Forum</a></li>
+
+            <li><a href="#">Login</a></li>
+        </ul>
+
+        <ul>
+
+            <li><a href="#">SELVIN2.0</a></li>
+
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+
+            <li class="hideOnMobile"><a href="#">About</a></li>
+
+            <li class="hideOnMobile"><a href="#">Forum</a></li>
+
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+
+            <li class="menu-button" onclick=Showsidebar()><a href="#"><i class='bx bx-menu'></i></a></li>
+
+        </ul>
+    </nav>
+    <script>
+        function Showsidebar() {
+            const SideBar = document.querySelector(".SideBar");
+            SideBar.style.display = 'flex';
+        }
+      function hideSideBar(){
+        
+        const SideBar = document.querySelector(".SideBar");
+            SideBar.style.display = 'none';
+      }
+
+    </script>
+
+</body>
+
+</html>
