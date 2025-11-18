@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-log {
+    width: 100px;
+    padding: 10px 10px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu li {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 450;
+    list-style: none;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    right: 0;
+    top: 2;
+    padding: 20px;
+}
+
+.right i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.part2 {
+    background-color: #ffebcd;
+    padding: 14px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.part2 span {
+    color: crimson;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Logo {
+    width: 150px;
+    padding: 10px 100px;
+
+}
+
+.part3 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.part3-menu {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px 30px;
+    position: absolute;
+    left: 700px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.part4 {
+    border: 1px solid;
+    width: 450px;
+    padding: 10px 5px;
+    background: linear-gradient(to left,
+            #e8f0ff,
+            #fff6e4);
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 100px;
+    bottom: 500px;
+    text-align: center;
+}
+
+.Ai {
+    background: linear-gradient(90deg, #008ef5 20%, #9914ff 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zoho_Puvi_SemiBold';
+}
+
+.part5 {
+    position: absolute;
+    left: 100px;
+    bottom: 170px;
+    font-size: 40px;
+}
+
+.part6 {
+    /* display: flex; */
+
+}
+
+.part6 ul {
+
+    display: flex;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    font-size: 20px;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+
+}
+
+.part7 {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+   padding: 170px 10px;
+}
+
+.part8 {
+    display: flex;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    gap: 40px;
+}
+
+.part8 button {
+    padding: 15px 40px;
+
+
+}
+
+.Zoho {
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.Watch-btn {
+    background-color: #fcfdff;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: larger;
+    font-weight: 600;
+}
+.rev{
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    right: 60px;
+    bottom: 450px;
+    padding: 10px 40px;
+}
+.Ani1{
+    width: 80px;
+    position: absolute;
+    right: 600px;
+    bottom: 170px;
+    animation: smallFloat 2.5s ease-in-out infinite;
+}
+.Ani2{
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    transition: ease-in;
+ animation: smallFloat 2.5s ease-in-out infinite;
+}
+.Ani3{
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+     animation: smallFloat 2.5s ease-in-out infinite;
+}
+@keyframes smallFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
