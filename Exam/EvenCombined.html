@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Combined</title>
+</head>
+
+<body>
+
+    <button id="btn">Click</button>
+    <input type="text" id="inp" placeholder="Type here">
+
+    <div id="box" style="width: 150px; height: 150px; background: gray;margin-top: 20px;">
+
+
+    </div>
+
+
+</body>
+
+<script>
+
+const btn =document.getElementById("btn");
+const inp=document.getElementById("inp");
+const box=document.getElementById("box");
+
+
+btn.addEventListener("click" , ()=> {
+
+    console.log("Button Click ")
+});
+
+inp.addEventListener("input", ()=>{
+
+    console.log("Current Value ::",inp.value);
+
+})
+
+
+box.addEventListener("mouseover" , () =>{
+    box.style.background="green";   
+})
+</script>
+
+</html>

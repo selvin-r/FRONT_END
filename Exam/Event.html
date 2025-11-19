@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Events</title>
+</head>
+<body>
+
+<button id="btn">Click Me</button>
+
+<input id="nameInput" type="text" placeholder="Type your name">
+
+
+
+    <script>
+      
+
+      const div = document.createElement("div");
+
+      div.innerHTML = `<b>Hello Nana Selvin</b>`
+
+      document.body.appendChild(div);
+        div.style.color="red";
+
+
+        // Buttan Even============================================
+
+
+        const button =document.getElementById("btn");
+
+
+        button.addEventListener("click", ()=> {
+            console.log("Button clickrd")
+        })
+
+
+        // Input Event======================================
+
+
+
+        const input =document.getElementById("nameInput");
+
+
+        input.addEventListener("input", ()=>{
+
+            console.log(input.value);
+        });
+    </script>
+    
+</body>
+</html>

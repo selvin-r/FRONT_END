@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+
+<body>
+
+    <div id="box">
+        <p class="msg">Hello</p>
+
+        <p class="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus sunt doloremque ipsum
+            earum
+            necessitatibus sit accusantium veritatis, voluptatum dignissimos labore aspernatur nulla. Animi aliquam ut
+            possimus soluta explicabo. Ipsam.</p>
+    </div>
+    <button>Click</button>
+
+    <script>
+
+
+        const box = document.getElementById("box");
+
+        // const messages = document.getElementsByClassName("msg");
+
+        const msg = document.querySelector(".msg");
+
+        // 🔥 2) Changing Text===================================================
+
+              // msg.textContent = "Updated Text";
+
+
+        msg.innerHTML = "<b>BOLD TEXT</b>";   //  Dangerous (allows HTML injection) but powerful.
+       
+       // 🔥 3) Change Styles=========================================
+
+        msg.style.color = "red";
+        msg.style.background = "black";
+        msg.style.padding = "10px 200px";
+
+  
+
+
+        // const items = document.querySelectorAll("li");
+
+
+     // 🔥 4) Creating Elements=========================================
+
+
+     const div = document.createElement("div");
+
+     div.textContent = "New Element Here";
+      
+     document.body.appendChild(div);
+
+
+     // 🔥 5) Appending / Removing=====================================
+
+
+     const p = document.createElement("p");
+
+     p.innerHTML ="New P Tag";
+    
+     document.body.appendChild(p)
+
+  // 🔥 6) Setting Attributes============================================
+
+    msg.setAttribute("id", "newId");
+   msg.setAttribute("data-role", "tag");
+   
+// 🔥 7) Events (MOST IMPORTANT FOR INTERVIEW)===========================
+
+
+button.addEventListener("click", () => {
+
+    console.log("Button Clicked!");
+})
+
+
+    </script>
+
+</body>
+
+</html>
