@@ -35,7 +35,7 @@
 //     setInterval(() => {
 
 //         console.log("SetInterval Runs After 4s ::")
-
+ 
 //         console.log("SetInterval Runs After 4sx ::")
 
 //     }, 4000);
@@ -103,15 +103,15 @@
 
 
 
-// function greett(){
+function greett(){
 
-//    const id= setInterval(() => {
-//   console.log(new Date().toLocaleTimeString());
-// }, 1000);
-//  return id;
-// }
+   const id= setInterval(() => {
+  console.log(new Date().toLocaleTimeString());
+}, 1000);
+ return id;
+}
 
-// greett()
+greett()
 
 // ⚡ ADVANCED: Stopping after 5 times=============================
 
@@ -218,18 +218,18 @@
 // 🔥 5) Fix this broken timer code (very common mistake):
 
 
-function Mistake(){
+// function Mistake(){
 
-    let count=0;
+//     let count=0;
 
- let c=  setInterval(() => {
-        console.log(count);
+//  let c=  setInterval(() => {
+//         console.log(count);
 
-        if(count==5){
-            clearInterval(c)
-        }
-          count++;
-    }, 1000);
+//         if(count==5){
+//             clearInterval(c)
+//         }
+//           count++;
+//     }, 1000);
   
-}
-Mistake()
+// }
+// Mistake()

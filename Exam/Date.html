@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+
+    <style>
+        #clock {
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="clock">
+
+    </div>
+
+    <div class="time">
+
+    </div>
+</body>
+
+<script>
+
+
+    function clock() {
+
+        const clocks = document.getElementById("clock");
+
+
+        const id = setInterval(() => {
+            clocks.textContent = new Date().toLocaleDateString();
+
+        }, 1000);
+
+        return id;
+    }
+
+    clock()
+
+
+    function time(){
+
+        const times =document.getElementById("time");
+
+
+        const id =setInterval(()=>{
+
+            times.textContent= new Time().toLocaleDateString();
+        },1000)
+
+        return id;
+    }
+
+    time()
+</script>
+
+</html>
