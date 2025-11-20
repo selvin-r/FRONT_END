@@ -216,6 +216,22 @@
     bottom: 0;
      animation: smallFloat 2.5s ease-in-out infinite;
 }
+/* .part9{
+
+    width: 80px;
+    height: 70px;
+    padding: 30px 600px;
+    border: 1px solid #d8de91;
+    position: absolute;
+   margin-top: 700px;
+   right: 100px;
+   border-radius: 80px;
+   background: linear-gradient(#cad462,#bfc1ad);
+
+}
+.Ask{
+    display: flex;
+} */
 @keyframes smallFloat {
     0% {
         transform: translateY(0);
