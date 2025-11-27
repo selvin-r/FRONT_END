@@ -1,0 +1,602 @@
+@font-face {
+  font-family: 'appticswebicons';
+  src:  url('fonts/appticswebicons.eot?nbglw5');
+  src:  url('fonts/appticswebicons.eot?nbglw5#iefix') format('embedded-opentype'),
+    url('fonts/appticswebicons.ttf?nbglw5') format('truetype'),
+    url('fonts/appticswebicons.woff?nbglw5') format('woff'),
+    url('fonts/appticswebicons.svg?nbglw5#appticswebicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="zaf-"], [class*=" zaf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'appticswebicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zaf-members:before {
+  content: "\e900";
+}
+.zaf-segment:before {
+  content: "\e901";
+}
+.zaf-golbe:before {
+  content: "\e902";
+}
+.zaf-crash:before {
+  content: "\e903";
+}
+.zaf-feedback:before {
+  content: "\e904";
+}
+.zaf-bug:before {
+  content: "\e905";
+}
+.zaf-marketing:before {
+  content: "\e906";
+}
+.zaf-tester:before {
+  content: "\e907";
+}
+.zaf-app-update:before {
+  content: "\e908";
+}
+.zaf-settings:before {
+  content: "\e909";
+}
+.zaf-plus:before {
+  content: "\e90a";
+}
+.zaf-close:before {
+  content: "\e90b";
+}
+.zaf-down-arrow:before {
+  content: "\e90c";
+}
+.zaf-left-arrow:before {
+  content: "\e90d";
+}
+.zaf-right-arrow:before {
+  content: "\e90e";
+}
+.zaf-fill-up:before {
+  content: "\e90f";
+}
+.zaf-fill-down:before {
+  content: "\e910";
+}
+.zaf-tv:before {
+  content: "\e911";
+}
+.zaf-fill-android:before {
+  content: "\e912";
+}
+.zaf-fill-apple:before {
+  content: "\e913";
+}
+.zaf-fill-star:before {
+  content: "\e914";
+}
+.zaf-fill-chart:before {
+  content: "\e915";
+}
+.zaf-search:before {
+  content: "\e916";
+}
+.zaf-tick:before {
+  content: "\e917";
+}
+.zaf-private:before {
+  content: "\e918";
+}
+.zaf-edit:before {
+  content: "\e919";
+}
+.zaf-others:before {
+  content: "\e91a";
+}
+.zaf-delete:before {
+  content: "\e91b";
+}
+.zaf-pause:before {
+  content: "\e91c";
+}
+.zaf-play:before {
+  content: "\e91d";
+}
+.zaf-maximize:before {
+  content: "\e91e";
+}
+.zaf-minimize:before {
+  content: "\e91f";
+}
+.zaf-public:before {
+  content: "\e920";
+}
+.zaf-download:before {
+  content: "\e921";
+}
+.zaf-new-devices:before {
+  content: "\e922";
+}
+.zaf-extn:before {
+  content: "\e923";
+}
+.zaf-non-fatal:before {
+  content: "\e924";
+}
+.zaf-copy:before {
+  content: "\e925";
+}
+.zaf-fill-user:before {
+  content: "\e926";
+}
+.zaf-screens:before {
+  content: "\e927";
+}
+.zaf-events:before {
+  content: "\e928";
+}
+.zaf-apis:before {
+  content: "\e929";
+}
+.zaf-docs:before {
+  content: "\e92a";
+}
+.zaf-popout:before {
+  content: "\e92b";
+}
+.zaf-star:before {
+  content: "\e92c";
+}
+.zaf-sdk:before {
+  content: "\e92d";
+}
+.zaf-app-grid:before {
+  content: "\e92e";
+}
+.zaf-mail:before {
+  content: "\e92f";
+}
+.zaf-strokeout-chart:before {
+  content: "\e930";
+}
+.zaf-integration-tool:before {
+  content: "\e931";
+}
+.zaf-auditlog:before {
+  content: "\e932";
+}
+.zaf-message:before {
+  content: "\e933";
+}
+.zaf-comment:before {
+  content: "\e934";
+}
+.zaf-quickstart:before {
+  content: "\e935";
+}
+.zaf-sdk-version:before {
+  content: "\e936";
+}
+.zaf-apple:before {
+  content: "\e937";
+}
+.zaf-bettery:before {
+  content: "\e938";
+}
+.zaf-edge:before {
+  content: "\e939";
+}
+.zaf-wifi:before {
+  content: "\e93a";
+}
+.zaf-orientation:before {
+  content: "\e93b";
+}
+.zaf-free-space:before {
+  content: "\e93c";
+}
+.zaf-device:before {
+  content: "\e93d";
+}
+.zaf-line-chart:before {
+  content: "\e93e";
+}
+.zaf-fillwave-chart:before {
+  content: "\e93f";
+}
+.zaf-versions:before {
+  content: "\e940";
+}
+.zaf-remote:before {
+  content: "\e941";
+}
+.zaf-sessions:before {
+  content: "\e942";
+}
+.zaf-android:before {
+  content: "\e943";
+}
+.zaf-retention:before {
+  content: "\e944";
+}
+.zaf-shake-feedback:before {
+  content: "\e945";
+}
+.zaf-dsym:before {
+  content: "\e946";
+}
+.zaf-attachement:before {
+  content: "\e947";
+}
+.zaf-user:before {
+  content: "\e948";
+}
+.zaf-bell:before {
+  content: "\e949";
+}
+.zaf-integration:before {
+  content: "\e94a";
+}
+.zaf-group-people:before {
+  content: "\e94b";
+}
+.zaf-themes:before {
+  content: "\e94c";
+}
+.zaf-info:before {
+  content: "\e94d";
+}
+.zaf-appid:before {
+  content: "\e94e";
+}
+.zaf-dashboard:before {
+  content: "\e94f";
+}
+.zaf-funnel:before {
+  content: "\e950";
+}
+.zaf-chart:before {
+  content: "\e951";
+}
+.zaf-fill-windows:before {
+  content: "\e952";
+}
+.zaf-roles:before {
+  content: "\e953";
+}
+.zaf-privileges:before {
+  content: "\e954";
+}
+.zaf-windows:before {
+  content: "\e955";
+}
+.zaf-table:before {
+  content: "\e956";
+}
+.zaf-write:before {
+  content: "\e957";
+}
+.zaf-announcement:before {
+  content: "\e958";
+}
+.zaf-meeting:before {
+  content: "\e959";
+}
+.zaf-glossary:before {
+  content: "\e95a";
+}
+.zaf-active-devices:before {
+  content: "\e95b";
+}
+.zaf-live-chat:before {
+  content: "\e95c";
+}
+.zaf-more:before {
+  content: "\e95d";
+}
+.zaf-create-portal:before {
+  content: "\e95e";
+}
+.zaf-user-guide:before {
+  content: "\e95f";
+}
+.zaf-developer-guide:before {
+  content: "\e960";
+}
+.zaf-api-doc:before {
+  content: "\e961";
+}
+.zaf-faq:before {
+  content: "\e962";
+}
+.zaf-webinars:before {
+  content: "\e963";
+}
+.zaf-videos:before {
+  content: "\e964";
+}
+.zaf-community:before {
+  content: "\e965";
+}
+.zaf-blogs:before {
+  content: "\e966";
+}
+.zaf-logger:before {
+  content: "\e967";
+}
+.zaf-reviews:before {
+  content: "\e968";
+}
+.zaf-appstore:before {
+  content: "\e969";
+}
+.zaf-play-console:before {
+  content: "\e96a";
+}
+.zaf-target:before {
+  content: "\e96b";
+}
+.zaf-proguard:before {
+  content: "\e96c";
+}
+.zaf-sourcemap:before {
+  content: "\e96d";
+}
+.zaf-help:before {
+  content: "\e96e";
+}
+.zaf-switch:before {
+  content: "\e96f";
+}
+.zaf-tag:before {
+  content: "\e970";
+}
+.zaf-scale:before {
+  content: "\e971";
+}
+.zaf-sankey-chat:before {
+  content: "\e972";
+}
+.zaf-sankey-list:before {
+  content: "\e973";
+}
+.zaf-arrowline:before {
+  content: "\e974";
+}
+.zaf-calender:before {
+  content: "\e975";
+}
+.zaf-dial:before {
+  content: "\e976";
+}
+.zaf-terminate:before {
+  content: "\e977";
+}
+.zaf-metrics:before {
+  content: "\e978";
+}
+.zaf-custom-properties:before {
+  content: "\e979";
+}
+.zaf-group-email-notification:before {
+  content: "\e97a";
+}
+.zaf-playstore:before {
+  content: "\e97b";
+}
+.zaf-symbols-mapping:before {
+  content: "\e97c";
+}
+.zaf-stacked-chart:before {
+  content: "\e97d";
+}
+.zaf-web:before {
+  content: "\e97e";
+}
+.zaf-debug-view:before {
+  content: "\e97f";
+}
+.zaf-rom:before {
+  content: "\e980";
+}
+.zaf-service-provider:before {
+  content: "\e981";
+}
+.zaf-refresh:before {
+  content: "\e982";
+}
+.zaf-ram:before {
+  content: "\e983";
+}
+.zaf-bug-fill:before {
+  content: "\e984";
+}
+.zaf-sessions-fill:before {
+  content: "\e985";
+}
+.zaf-apis-fill:before {
+  content: "\e986";
+}
+.zaf-screens-fill:before {
+  content: "\e987";
+}
+.zaf-app-grid-fill:before {
+  content: "\e988";
+}
+.zaf-app-update1:before {
+  content: "\e989";
+}
+.zaf-crash1:before {
+  content: "\e98a";
+}
+.zaf-remote-fill:before {
+  content: "\e98b";
+}
+.zaf-events-fill:before {
+  content: "\e98c";
+}
+.zaf-upload:before {
+  content: "\e98d";
+}
+.zaf-criteria:before {
+  content: "\e98e";
+}
+.zaf-push-notification:before {
+  content: "\e98f";
+}
+.zaf-logger-fill:before {
+  content: "\e990";
+}
+.zaf-js-error:before {
+  content: "\e991";
+}
+.zaf-bubble-chart:before {
+  content: "\e992";
+}
+.zaf-orgs:before {
+  content: "\e993";
+}
+.zaf-tree-map:before {
+  content: "\e994";
+}
+.zaf-watch-os:before {
+  content: "\e995";
+}
+.zaf-mac-os:before {
+  content: "\e996";
+}
+.zaf-tv-os:before {
+  content: "\e997";
+}
+.zaf-ipad-os:before {
+  content: "\e998";
+}
+.zaf-flutter:before {
+  content: "\e999";
+}
+.zaf-react-native:before {
+  content: "\e99a";
+}
+.zaf-unity:before {
+  content: "\e99b";
+}
+.zaf-ios:before {
+  content: "\e99c";
+}
+.zaf-linux:before {
+  content: "\e99d";
+}
+.zaf-js:before {
+  content: "\e99e";
+}
+.zaf-vision-os:before {
+  content: "\e99f";
+}
+.zaf-video-attachment:before {
+  content: "\e9a0";
+}
+.zaf-ticket:before {
+  content: "\e9a1";
+}
+.zaf-backward:before {
+  content: "\e9a2";
+}
+.zaf-forward:before {
+  content: "\e9a3";
+}
+.zaf-expand:before {
+  content: "\e9a4";
+}
+.zaf-scroll:before {
+  content: "\e9a5";
+}
+.zaf-devices:before {
+  content: "\e9a6";
+}
+.zaf-unique-device:before {
+  content: "\e9a7";
+}
+.zaf-memory-leak:before {
+  content: "\e9a8";
+}
+.zaf-anr-hang:before {
+  content: "\e9a9";
+}
+.zaf-load:before {
+  content: "\e9aa";
+}
+.zaf-task:before {
+  content: "\e9ab";
+}
+.zaf-project:before {
+  content: "\e9ac";
+}
+.zaf-thumbsup:before {
+  content: "\e9ad";
+}
+.zaf-thumbs-down:before {
+  content: "\e9ae";
+}
+.zaf-quarylist:before {
+  content: "\e9af";
+}
+.zaf-zia:before {
+  content: "\e9b0";
+}
+.zaf-ai-manage:before {
+  content: "\e9b1";
+}
+.zaf-testlab:before {
+  content: "\e9b2";
+}
+.zaf-dev:before {
+  content: "\e9b3";
+}
+.zaf-store:before {
+  content: "\e9b4";
+}
+.zaf-sentiment:before {
+  content: "\e9b5";
+}
+.zaf-os-version:before {
+  content: "\e9b6";
+}
+.zaf-memory:before {
+  content: "\e9b7";
+}
+.zaf-terminate1:before {
+  content: "\e9b8";
+}
+.zaf-crm:before {
+  content: "\e9b9";
+}
+.zaf-desk:before {
+  content: "\e9ba";
+}
+.zaf-cliq:before {
+  content: "\e9bb";
+}
+.zaf-zendesk:before {
+  content: "\e9bc";
+}
+.zaf-slack:before {
+  content: "\e9bd";
+}
+.zaf-support-email:before {
+  content: "\e9be";
+}
+
+
