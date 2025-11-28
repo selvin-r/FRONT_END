@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Scrolling</title>
+</head>
+
+<body>
+
+
+<div id="viewport" style="height:400px; overflow:auto; border:1px solid #ccc;">
+  <div id="spacer-top"></div>
+  <div id="list"></div>
+  <div id="spacer-bottom"></div>
+</div>
+
+    </div>
+
+</body>
+
+<script>
+  const totalItems = 100000; 
+  const itemHeight = 20;
+
+  const viewport = document.getElementById("viewport");
+  const spacerTop = document.getElementById("spacer-top");
+  const spacerBottom = document.getElementById("spacer-bottom");
+  const list = document.getElementById("list");
+
+  function render() {
+    const scrollTop = viewport.scrollTop;
+
+    const start = Math.floor(scrollTop / itemHeight);
+    const end = start + 20; 
+
+    list.innerHTML = "";
+
+    spacerTop.style.height = start * itemHeight + "px";
+    spacerBottom.style.height = (totalItems - end) * itemHeight + "px";
+
+    for (let i = start; i < end; i++) {
+      const div = document.createElement("div");
+      div.style.height = itemHeight + "px";
+      div.textContent = "Item " + i;
+      list.appendChild(div);
+    }
+  }
+
+  viewport.addEventListener("scroll", render);
+  render();
+</script>
+
+
+</html>
