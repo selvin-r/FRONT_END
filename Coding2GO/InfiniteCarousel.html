@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Carousel</title>
+    <style>
+        *{
+            background-color: black;
+        }
+   .carousel{
+    margin: 100px auto;
+    width: 90%;
+    border: 5px solid red;
+    display: flex;
+    overflow-x: auto;
+    /* gap: 1em; */
+   }
+   .carousel::-webkit-scrollbar{
+    display: none;
+   }
+   .group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 8s infinite linear;
+    padding-right: 1em;
+   }
+   .card{
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 1em;
+    background: cornflowerblue;
+    font-size: 3rem;
+    border-radius: .2em;
+    text-align: center;
+    align-items: center;
+
+   }
+   @keyframes spin {
+
+    from{translate: 0;}
+    to{translate: -100%;}
+    
+   }
+   @keyframes spin1 {
+    from{translate: -100%;}
+    to{translate: 0;}
+    
+   }
+
+   .carousel1{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    border: 5px solid rgb(128, 0, 107);
+     overflow-y: auto;
+   }
+    .carousel1::-webkit-scrollbar{
+    display: none;
+   }
+   .group1{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin1 10s infinite linear;
+    padding-right: 1em;
+   }
+   .card1{
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 1em;
+    background: rgb(247, 137, 46);
+    font-size: 3rem;
+    border-radius: .2em;
+    text-align: center;
+    align-items: center;
+   }
+        
+    </style>
+</head>
+<body>
+
+    <div class="carousel">
+        <div class="group">
+            <div class="card">ANI</div>
+            <div class="card">ANi</div>
+            <div class="card">Ani</div>
+            <div class="card">ani</div>
+            <div class="card">anI</div>
+            <div class="card">aNI</div>
+        </div>
+
+
+         <div aria-hidden="" class="group">
+            <div class="card">SELVIN</div>
+            <div class="card">SELVIn</div>
+            <div class="card">SELVin</div>
+            <div class="card">SELvin</div>
+            <div class="card">SElvin</div>
+            <div class="card">Selvin</div>
+        </div>
+    </div>
+
+
+
+    <div class="carousel1">
+        <div class="group1">
+            <div class="card1">SELVIN</div>
+            <div class="card1">SELVIn</div>
+            <div class="card1">SELVin</div>
+            <div class="card1">SELvin</div>
+            <div class="card1">SElvin</div>
+            <div class="card1">Selvin</div>
+        </div>
+         <div aria-hidden="" class="group1">
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

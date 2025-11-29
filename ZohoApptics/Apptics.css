@@ -1,181 +1,220 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+
+.top-header {
+  background: white;
+  padding: 15px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-logo {
-    margin: 20px;
-    width: 130px;
-}
-
-.header-dev {
     display: flex;
-
+    position: relative;
+    right: 50px;
+  width: 130px;
 }
 
-.Products {
-    position: absolute;
-    right: 1260px;
-    top: 40px;
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-
-.bx-search {
-    position: absolute;
-    right: 100px;
-    margin: 40px;
+.nav-right span{
+    position: relative;
+    right: 1060px;
 }
 
 .Sign-icon {
-    position: absolute;
-    right: 50px;
-    top: 40px;
-    border: none;
-    outline: none;
-    background-color: white;
-    color: red;
+  border: none;
+  background: none;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.header-sec {
-    position: relative;
-    z-index: 1;
-    background-color: #0f111a;
-    width: 100%;
-    height: 700px;
-    margin-top: -15px;
+.hero {
+  min-height: 100vh;
+  background: #0f111a;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .apptics-dark {
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu .demo {
+  font-weight: bold;
+}
+
+
+.hero-content {
+  margin-top: 60px;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 1.1;
+}
+.Unified{
+    display: inline;
     position: absolute;
-    width: 150px;
-    right: 1270px;
-    margin-top: 10px;
-}
-
-.Features {
-    position: absolute;
-    border: none;
-    outline: none;
-    right: 550px;
-    background-color: #0f111a;
-    color: white;
-    font-size:medium;
-    font-weight: 100;
-    margin-top: 20px;
-}
-
-.Pricing {
-    position: absolute;
-    border: none;
-    outline: none;
-    right: 450px;
-    background-color: #0f111a;
-    color: white;
-    font-size:medium;
-    font-weight: 100;
-    margin-top: 20px;
-
-}
-
-.Solutions {
-    position: absolute;
-    border: none;
-    outline: none;
-    right: 350px;
-    background-color: #0f111a;
-    color: white;
-    font-size:medium;
-    font-weight: 100;
-    margin-top: 20px;
-
-}
-
-.Resources {
-    position: absolute;
-    border: none;
-    outline: none;
-    right: 250px;
-    background-color: #0f111a;
-    color: white;
-    font-size:medium;
-    font-weight: 100;
-    margin-top: 20px;
-}
-.RequestDemo{
-     position: absolute;
-    border: none;
-    outline: none;
-    right: 120px;
-    background-color: #0f111a;
-    color: white;
-    font-size:medium;
-    font-weight: 500;
-    margin-top: 20px;
-
-
-}
-.section{
-    display: block;
-    /* z-index: 10px; */
-    color: white;
-}
-
-.Unifide{
-    position: absolute;
-    right: 790px;
-    bottom: 500px;
-    font-size: 60px;
-}
-.actionable{
-position: absolute;
-right: 360px;
-bottom: 500px;
- font-size: 60px;
+    right: 730px;
+    top: 144px;
 }
 .product{
-position: absolute;
-right: 800px;
-bottom: 400px;
-font-size: 60px;
-top: 200px;
-
+    display: inline;
+    position: absolute;
+    right: 760px;
+    top: 200px;
 }
-.ptag{
-position: absolute;
-right: 470px;
-bottom: 300px;
-font-size: 20px;
-top: 290px;
-
+.sech1{
+    display: inline;
+    position: absolute;
+    right: 290px;
+    top: 144px;
 }
-.Access{
-    background-color: crimson;
+
+.hero-content p {
+  margin-top: 190px;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  right: 100px;
+  top: 20px;
+  font-size: larger;
+  font-weight: 400;
+}
+
+
+.hero-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.Access {
+  padding: 15px 50px;
+  background: crimson;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 1020px;
+}
+
+.Request {
+  padding: 15px 45px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 800px;
+}
+
+
+.banner {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  max-width: 90%;
+}
+.Supporting{
+    display: block;
+    background-color: black;
+    min-height: 100vh;
+      position: relative;
+  overflow: hidden;
+    
+}
+.Supporting h1{
     color: white;
-    position: absolute;
-    padding: 15px 60px;
-    border-radius: 5px;
-    right: 979px;
-    top: 360px;
-    border: none;
-        font-size: larger;
-    font-weight: 600;
-}
-.Request{
+    margin-left: 90px;
+    font-size: 40px;
 
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    position: absolute;
-    padding: 15px 50px;
-    border-radius: 5px;
-    right: 720px;
-    top: 360px;
-    font-size: larger;
-    font-weight: 600;
+
 }
-.zwc-bnr-video{
-    position: absolute;
-   top: 500px;
-   padding-left: 110px;
+.SDK{
+    margin-top: 200px;
+}
+.icon{
+  color: white;
+}
+.iossvg{
+  position:relative;
+  left: 660px;
+  bottom: 200px;
+}
+.ios{
+  position: relative;
+  left: 600px;
+  bottom: 170px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ipadossvg{
+  position: relative;
+  left: 670px;
+  bottom: 200px;
+}
+.ipados{
+  position: relative;
+  left: 590px;
+  bottom: 170px;
+  font-size: 25px;
+}
+.mac-ossvg{
+  position: relative;
+  left: 660px;
+  bottom: 200px;
+
+}
+.mac-oss{
+  position: relative;
+  left: ;
 }
