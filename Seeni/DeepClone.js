@@ -1,20 +1,20 @@
 
 
-function deepclone(obj){
+function deepclone(obj) {
 
 
-    let copy ={};
+    let copy = {};
 
 
 
-    for(let key in obj){
+    for (let key in obj) {
 
-        if(typeof obj [key]==="object" && obj[key] !==null){
+        if (typeof obj[key] === "object" && obj[key] !== null) {
 
-            copy[key]=deepclone(obj[key]);
+            copy[key] = deepclone(obj[key]);
         } else {
 
-            copy[key]=obj[key];
+            copy[key] = obj[key];
         }
     }
 

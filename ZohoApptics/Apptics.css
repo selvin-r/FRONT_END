@@ -47,9 +47,9 @@
 }
 
 .apptics-dark {
-    position: fixed;
-    width: 110px;
-    right: 1150px;
+    position: absolute;
+    width: 150px;
+    right: 1270px;
     margin-top: 10px;
 }
 
@@ -114,4 +114,68 @@
     margin-top: 20px;
 
 
+}
+.section{
+    display: block;
+    /* z-index: 10px; */
+    color: white;
+}
+
+.Unifide{
+    position: absolute;
+    right: 790px;
+    bottom: 500px;
+    font-size: 60px;
+}
+.actionable{
+position: absolute;
+right: 360px;
+bottom: 500px;
+ font-size: 60px;
+}
+.product{
+position: absolute;
+right: 800px;
+bottom: 400px;
+font-size: 60px;
+top: 200px;
+
+}
+.ptag{
+position: absolute;
+right: 470px;
+bottom: 300px;
+font-size: 20px;
+top: 290px;
+
+}
+.Access{
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    padding: 15px 60px;
+    border-radius: 5px;
+    right: 979px;
+    top: 360px;
+    border: none;
+        font-size: larger;
+    font-weight: 600;
+}
+.Request{
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    padding: 15px 50px;
+    border-radius: 5px;
+    right: 720px;
+    top: 360px;
+    font-size: larger;
+    font-weight: 600;
+}
+.zwc-bnr-video{
+    position: absolute;
+   top: 500px;
+   padding-left: 110px;
 }
