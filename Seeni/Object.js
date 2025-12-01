@@ -164,4 +164,108 @@ console.log(clean({
 // ✅ 16. Object la Duplicate Values Remove Program================
 
 
+let Duplicate = {
+  a: 1,
+  b: 2,
+  c: 1,
+  d: 3,
+  e: 2
+};
 
+
+let result = {};
+
+
+let seen = new Set();
+
+
+for(let key in Duplicate){
+
+    if(!seen.has(Duplicate[key])){
+        seen.add(Duplicate[key]);
+
+        result[key] =Duplicate[key];
+    }
+}
+
+console.log(result)
+
+
+// ✅ 17. Two Objects Compare Panni Equal ahnu Check==============================
+
+
+
+
+function isEqual(obj1,obj2){
+
+    let k1 = Object.keys(obj1);
+    let k2 =Object.keys(obj2);
+
+
+    if(k1.length !== k2.length){
+        return false;
+    }
+
+    for(let key of k1){
+        if(obj1[key]!==obj2[key]){
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log(isEqual({a:1,b:2}, {a:1,b:2}));
+console.log(isEqual({a:1,b:2}, {a:1,b:2,c:3}));
+
+
+// ✅ 18. Object Values-la Maximum Value Find=============================================
+
+
+
+
+let mark = {
+  tamil: 80,
+  english: 75,
+  maths: 95
+};
+
+let max = 0;
+
+for (let key in mark) {
+  if (mark[key] > max) {
+    max = mark[key];
+  }
+}
+
+console.log(max); // 95
+
+
+// ✅ 19. Object Values-la Minimum Value Find========================================
+
+let mar = {
+  tamil: 80,
+  english: 75,
+  maths: 95
+};
+
+let min = Infinity;
+
+for (let key in mar) {
+  if (mar[key] < min) {
+    min = mar[key];
+  }
+}
+
+console.log(min);
+
+// ✅ 20. Swap Object Keys and Values==========================================
+
+
+let swa = { a: 1, b: 2, c: 3 };
+let swapped = {};
+
+for (let key in swa) {
+  swapped[swa[key]] = key;
+}
+
+console.log(swapped);
