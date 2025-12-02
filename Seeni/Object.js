@@ -305,3 +305,90 @@ function Findkey(Value){
 const Find ={a:2,b:200,c:20};
 
 console.log(Findkey(2))
+
+
+// ✅ 23. Object la Only Number Values Filter=======================
+
+
+function Only(value){
+
+  let result ={};
+
+  for(let key in value){
+
+
+    if(typeof value[key] === "number"){
+
+       result[key]=value[key];
+    }
+  }
+
+  return result;
+
+}
+
+const value ={
+  a:10,
+  b:"hello",
+  c: true,
+  d:null,
+  e:20
+};
+
+console.log(Only(value));
+
+
+
+
+// ✅ 24. Object Reverse Program==========================================================
+
+
+
+function Reverse(value){
+
+
+  let Reverse ={};
+
+  let keys =Object.keys(value).reverse();
+
+  for(let key of keys){
+
+    Reverse[key]=value[key];
+
+
+  }
+
+  return Reverse;
+}
+
+
+const valuee ={
+
+  a:2,
+  b:4,
+  c:5,
+  d:6,
+  f:3
+
+};
+
+
+console.log(Reverse(valuee))
+
+
+// ✅ 25. Nested Object Value Access with Loop===================================
+
+
+let valu = {
+
+  name:"Selvin",
+  mark:{
+    tamil:20,
+    Englis:30
+  }
+}
+
+for(let key in valu.mark){
+
+  console.log(key,valu.mark[key]);
+}
