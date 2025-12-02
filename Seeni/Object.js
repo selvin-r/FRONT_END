@@ -269,3 +269,39 @@ for (let key in swa) {
 }
 
 console.log(swapped);
+
+
+// ✅ 21. Object Values Sum Using Reduce
+
+
+
+function Reduce(res){
+
+
+  return  Object.values(res).reduce((a,b)=>a+b,0);
+}
+
+const res ={a:10,b:20,c:30}
+
+console.log(Reduce(res))
+
+
+// ✅ 22. Find Key Using Value-====================================================
+
+
+
+function Findkey(Value){
+
+  for(let key in Find){
+
+    if(Find[key]===Value){
+
+      return key
+
+    }
+  }
+}
+
+const Find ={a:2,b:200,c:20};
+
+console.log(Findkey(2))
